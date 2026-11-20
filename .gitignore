@@ -1,0 +1,28 @@
+# Dependencies, builds and generated files
+node_modules/
+dist/
+build/
+coverage/
+*.log
+.DS_Store
+
+# Secrets, personal settings, credentials and backups
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.backup
+*.dump
+*.sql.gz
+*credentials*.json
+*service-account*.json
+*.secret
