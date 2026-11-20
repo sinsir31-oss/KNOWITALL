@@ -1,14 +1,16 @@
 {
   "name": "@dlb-labs/knowitall-open",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Publicly released portable KNOWITALL KIA utilities (not the production assistant)",
+  "description": "Offline open-source KNOWITALL developer starter kit (not the production assistant)",
   "type": "module",
   "engines": {
     "node": ">=20"
   },
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "demo": "node examples/quickstart.mjs",
+    "check": "node --check src/profiles.mjs && node --check src/task-runner.mjs && node --check examples/quickstart.mjs"
   },
   "license": "MIT"
 }
